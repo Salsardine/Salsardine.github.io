@@ -1,0 +1,157 @@
+
+header{
+    position: sticky;
+    top: 10px;
+    width: 98%;
+    left:1%;
+    z-index:10;
+    text-align: center;
+}
+
+body{
+    position: relative;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    background: linear-gradient(2deg, rgb(241, 22, 227) 3%, rgb(30, 131, 231) 38%, rgb(119, 126, 25) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 200s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;   
+}
+
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    width: 100%;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color : #d2e2df ;
+}
+
+.Accueil{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.Parcours{
+    position: relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.Projets{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.CréditsContact{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+
+.AccueilActive{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+.AccueilActive a{
+    color: #1bdbce;
+}
+
+.ParcoursActive{
+    position: relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+.ParcoursActive a{
+    color: #1bdbce;
+}
+
+.ProjetsActive{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+.ProjetsActive a{
+    color: #1bdbce;
+}
+
+.CréditsContactActive{
+    position :relative;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+}
+.CréditsContactActive a{
+    color: #1bdbce;
+}
+
+#footer{
+    text-align: center;
+    border:solid;
+}
+
+.conteneur {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 20px;
+}
+.box {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+}
+
+figure {
+    position: relative;
+    margin: 20px auto;
+    text-align: center  ;
+}
+
+figcaption {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
